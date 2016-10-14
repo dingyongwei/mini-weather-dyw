@@ -103,7 +103,7 @@
                 android:textSize="15.0sp" />
             <!--当前气温信息-->
             <TextView
-                android:id="@+id/tem_now"
+                android:id="@+id/wendu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toLeftOf="@+id/pm2_5_content"
@@ -202,7 +202,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_marginLeft="25dip"
+                    android:layout_marginLeft="10dip"
                     android:layout_toRightOf="@id/weather_img"
                     android:singleLine="true"
                     android:text="今天 星期三"
@@ -214,19 +214,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/week_today"
-                    android:layout_marginLeft="25dip"
+                    android:layout_marginLeft="13dip"
                     android:layout_toRightOf="@id/weather_img"
                     android:singleLine="true"
                     android:text="25℃~14℃"
-                    android:textColor="@android:color/white"
-                    android:textSize="30.0sp" />
+                    android:textColor="@android:color/white" />
                 <!-- 天气状况 -->
                 <TextView
                     android:id="@+id/climate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/temperature"
-                    android:layout_marginLeft="25dip"
+                    android:layout_marginLeft="10dip"
                     android:layout_toRightOf="@id/weather_img"
                     android:singleLine="true"
                     android:text="多云转晴"
@@ -238,7 +237,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/climate"
-                    android:layout_marginLeft="25dip"
+                    android:layout_marginLeft="10dip"
                     android:layout_toRightOf="@id/weather_img"
                     android:singleLine="true"
                     android:text="微风"
